@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+h2,
+h3,
+p,
+button {
+  font-weight: 700;
+}
+body {
+  font-family: "karla", sans-serif;
+  font-size: 15px;
+  background-color: hsl(218, 22%, 67%, 0.4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*-----------------------------------container----------------------------------------------*/
+.container {
+  /* border: 3px solid; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-height: 200px;
+  background-color: whitesmoke;
+}
+/*--------------------------main-content---------------------------------*/
+.main-content {
+  background-color: whitesmoke;
+  height: 35%;
+  margin: 20px 40px;
+}
+/*-----------------------blocks -block-1----block-2------------*/
+.blocks {
+  color: bisque;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0 0 10px 10px;
+  max-width: 600px;
+  height: 65%;
+}
+
+.block-2 {
+  border-radius: 0 0 5px 0;
+  padding: 15px 30px;
+  background-color: hsl(179, 62%, 43%);
+  width: 300px;
+  box-sizing: border-box;
+}
+.block-1 {
+  border-radius: 0 0 0 5px;
+  padding: 15px 0;
+  background-color: #008f8c;
+  width: 300px;
+  text-indent: 30px;
+  /* border: 0 0 1px 0; */
+}
+/* -------------------------children---------------------------- */
+header {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5em;
+  font-weight: 700;
+  /* letter-spacing: 1px; */
+}
+.para-1 {
+  color: hsl(71, 73%, 54%);
+  letter-spacing: 1px;
+}
+.para-2 {
+  color: hsl(218, 22%, 67%);
+  opacity: 0.8;
+  line-height: 23px;
+}
+.para-3 {
+  opacity: 0.8;
+}
+.para-4 {
+  opacity: 0.6;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+h2 {
+  margin: -5px 0;
+  font-size: 1.9em;
+}
+button {
+  width: 78%;
+  height: 45px;
+  margin: 0 30px;
+  border-radius: 7px;
+  background-color: #bde038;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+
+.block-2 > p {
+  width: 80%;
+}
+
+span {
+  font-size: 0.5em;
+  font-weight: 400;
+  font-family: sans-serif;
+  opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    margin: 5px 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    max-width: 330px;
+    min-height: 75vh;
+  }
+  .main-content {
+    border-radius: 5px;
+    height: 32%;
+
+    margin: 20px 40px;
+  }
+
+  .blocks {
+    color: bisque;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+
+    width: 100%;
+    height: 68%;
+  }
+  .block-1 {
+    background-color: #008f8c;
+    /* padding: 10px; */
+    width: 100%;
+    height: 50%;
+  }
+  .block-2 {
+    background-color: #2d81a6;
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 5px 5px;
+
+    /* padding: 5px 30px; */
+  }
+}
