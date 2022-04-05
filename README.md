@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github repo](https://your-solution-url.com)
-- Live Site URL: [github page](https://your-live-site-url.com)
+- Solution URL: [github repo](https://github.com/ketannegi/mentor-single-card-component.git)
+- Live Site URL: [github page]( https://ketannegi.github.io/mentor-single-card-component/)
 
 ## My process
 
